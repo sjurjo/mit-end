@@ -1,0 +1,21 @@
+color:
+  palette:
+    dark-grey: "#222222"
+    green3: "#E9F6E7"
+    white: "#ffffff"
+  background: white
+  foreground: black
+  primary: black
+
+
+#logo: 
+#  medium: resources/CISK.png
+
+typography:
+  fonts:
+    - family: Jura
+      source: google
+  base: Jura
+  headings: Jura
+  
+ 

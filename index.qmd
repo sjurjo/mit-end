@@ -1,0 +1,18 @@
+---
+title: "Utholdenhetstrening"
+author: 
+  - name: Sjur Fortun Øfsteng
+    email: 
+    orcid: 
+#date: 
+biblio-style: apalike
+description: Denne læringsmodulen gir deg en innføring i utholdenhetstrening
+fontsize: 11pt
+github-repo: sjurjo/mit-end
+#cover-image: resources/marsj.jpg
+#bibliography: 
+---
+
+# Introduksjon
+
+Her kommer det en side om teori omkring utholdenhetstreninig
