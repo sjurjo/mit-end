@@ -12,7 +12,14 @@ book:
   chapters:
   - index.qmd
   - 01-intro.qmd
+  - part: "Treningsmetoder"
+    chapters:
+    - 02-exe.qmd
+    - 03-intensity.qmd
+  - 99-referanser.qmd
+    
+  
   
   
 brand: _brand.yml
-#bibliography: 
+bibliography: bib.bib

@@ -8,8 +8,8 @@ color:
   primary: black
 
 
-#logo: 
-#  medium: resources/CISK.png
+logo: 
+ medium: resources/CISK.png
 
 typography:
   fonts:

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; intro – Utholdenhetstrening</title>
+<title>2&nbsp; Hva er utholdenhetstrening i en militær kontekst – Utholdenhetstrening</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,6 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./02-exe.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -74,6 +95,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -86,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">intro</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Hva er utholdenhetstrening i en militær kontekst</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,6 +151,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
+      <img src="./resources\CISK.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./resources\CISK.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Utholdenhetstrening</a> 
@@ -125,7 +177,36 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./01-intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">intro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Hva er utholdenhetstrening i en militær kontekst</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Treningsmetoder</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-exe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Metoder</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-intensity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Intensitet</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./99-referanser.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referanser</span></a>
   </div>
 </li>
     </ul>
@@ -133,15 +214,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#bestemmende-faktorer-for-din-utholdenhetsprestasjon---fysiologiske" id="toc-bestemmende-faktorer-for-din-utholdenhetsprestasjon---fysiologiske" class="nav-link active" data-scroll-target="#bestemmende-faktorer-for-din-utholdenhetsprestasjon---fysiologiske"><span class="header-section-number">3</span> Bestemmende faktorer for din utholdenhetsprestasjon - fysiologiske</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">intro</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Hva er utholdenhetstrening i en militær kontekst</span></h1>
 </div>
 
 
@@ -158,9 +245,78 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hva er utholdenhetstrening Bestemmende faktorer</p>
+<p>“Forutsetningene må være på plass som utstyr og forbredelser som fysisk osv. Den viktigste beredskapen er troen på at du faktisk kan løse oppdraget når det gjelder. Realistik trening bygger den selvtilliten. FAM100, sitert feltoperatør - fjernoppklaringseskadronen”</p>
+<p>Både styrke og utholdenhet er nødvendig for å imøtekomme kravene på det moderne stridsfeltet. Derfor er det essensielt at du som Befal tar dette med i vurderingene når treningsprogram utvikles for soldatene.</p>
+<p>Studier viser at god fysisk prestasjonsevne er sett i sammenheng med økt resiliens og psykologisk og kognitive prestasjon <span class="citation" data-cites="deuster_2013 martin_2020">(<a href="99-referanser.html#ref-deuster_2013" role="doc-biblioref">Deuster and Silverman 2013</a>; <a href="99-referanser.html#ref-martin_2020" role="doc-biblioref">Martin et al. 2020</a>)</span>.</p>
+<p>Studier viser at kort fysisk aktivitet med lav til moderat intensitet kan forbdere kognitive evner, men en økning til hard og maksimal intensitet, faller denne fordelen med fysisk aktivtet bort [Chang 2012]. Videre ses det det fall i reaksjonsevne (6-7%) og arbeids minne (~7%) ved lengre varende fysisk arbeid som etter 2 [REF] og 6 timers [REF] marsj på tredemølle.</p>
+<p>Over en periode på 96 timer reaksjons tiden ble saktere med ca 17% og antall riktig svar på en hukommelsespppgave etter ild og bevegelses treningen ble redusert med 18% [REF, Owen2004].</p>
+<p>Så ved lengrevarende militære aktiviteter, kogitiv prestasjonsevne tenderer til å bl verre med øktende varighet <span class="citation" data-cites="marting_2020">(<a href="99-referanser.html#ref-marting_2020" role="doc-biblioref"><strong>marting_2020?</strong></a>)</span></p>
+<p>Så ved å økede grad av intensitet</p>
+<p>For å motvirke dette fallet i kogitiv prestasjonsevne under øktende intensitet, tyngre fysisk arbeid over tid, er det tydelig at fysisk bedre trente personer klarer å moderere fallet i kognitiv prestajsonsevne sammenlignet med de som er dårlig trent <span class="citation" data-cites="chang_2012">(<a href="99-referanser.html#ref-chang_2012" role="doc-biblioref">Chang et al. 2012</a>)</span>. En reservekapasitet muligens?</p>
+<p>Motivasjon er en kraft eller stimuli som fører til individer å gjennomføre en spesifikk oppgave eller aktivitet som har en spesifikk mål eller et personlig mål [].</p>
+<p>Kondisjon = utholdenhet</p>
+<p>Fysisk trening som stimulerer til forbedret aerob kapasitet kan forbedre prestasjon i flere kognitiv krevende oppgaver. Og personer som har en god aerob utholdenhet vist at de tåler bedre stress. Derfor å opprettholde et minimum av trening med hensikt om å vedlikeholde fysisk form under krevende situasjoner viser seg å være viktig for din militære prestasjonsevne fysisk og kognitivt <span class="citation" data-cites="marting_2020">(<a href="99-referanser.html#ref-marting_2020" role="doc-biblioref"><strong>marting_2020?</strong></a>)</span>.</p>
+<ul>
+<li>Aerob kapasitet er fordelaktig for din kognitive evne. Trening leder til forbedring eller vedlikehold av det maksimale oksygenopptaket resulterer i bedre kognitiv prestasjonsevne.</li>
+<li>Bedre fysisk form/aerob kapasitet har blitt assosiert med raskere reaksjonsevne og presisjon samt arbeids minne [<span class="citation" data-cites="hansen_2004">(<a href="99-referanser.html#ref-hansen_2004" role="doc-biblioref"><strong>hansen_2004?</strong></a>)</span>).</li>
+<li>En åtte uker fysisk treningsprogram som økte det maksimale oksygen opptaket med 5% økte også prestasjon målt som oppmerksomhet (20%), arbeidsminne (20%) <span class="citation" data-cites="hickey_2012">(<a href="99-referanser.html#ref-hickey_2012" role="doc-biblioref">Hickey, Donne, and O’Brien 2012</a>)</span>.</li>
+</ul>
+<p>Linken mellom fysisk aktivitet og aerob kapasitet og kognivitet er vel etablert. Studier har vist aerob trening forbedrer oppmerksomhet, prossesering, utøvende funksjon og arbeidsminne <span class="citation" data-cites="smith_2010">(<a href="99-referanser.html#ref-smith_2010" role="doc-biblioref">Smith et al. 2010</a>)</span>. God fysisk form kan også gi en fordel for din kognitive evner ved å mer indirekte redusere effekten av andre stressfaktorer som er negative for din prestasjon. For.eks bedre fysisk form bidrar til å redusere reaksjoner på ekstremt krevende militær trening <span class="citation" data-cites="taylor_2008">(<a href="99-referanser.html#ref-taylor_2008" role="doc-biblioref">Taylor et al. 2008</a>)</span>, mindre påvirket av mental trøtthet, opplever fysisk krevende situasjoner som mindre krevende <span class="citation" data-cites="milanez_2011">(<a href="99-referanser.html#ref-milanez_2011" role="doc-biblioref">Milanez et al. 2011</a>)</span>.</p>
+<p><strong>Refleksjonsoppgave in class:</strong> Hva tenker du om dette sett i lys av dine evne til å ta riktig beslutninger til riktig tid, prosessere mye informasjon og kunne observere/ta inn viktige detaljer for din beslutning, akutt reaksjonsevne under for eksempel ild og bevegelse situasjoner?</p>
+<p>Ingeniør Befal</p>
+<section id="bestemmende-faktorer-for-din-utholdenhetsprestasjon---fysiologiske" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Bestemmende faktorer for din utholdenhetsprestasjon - fysiologiske</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-endpres" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-endpres-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="01-intro_files/figure-html/fig-endpres-1.png" class="img-fluid figure-img" width="1152">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-endpres-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: Bestemmende faktorer for utholdenhetsprestasjon
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><em>Maksimal oksygen opptak <span class="math inline">\(VO2_{max}\)</span></em></p>
+<p>Maksimalt oksygen opptak er definert som det høyeste mengde oksygen som kroppen kan ta opp og nyttiggjøre seg under gjennomføring av anstrengende fysisk arbeid.</p>
+<p><strong>Aerob kapasitet</strong></p>
+<p>Defineres som evnen til å holde en sub-maksimal lav til moderat/høy aktivitet over en gitt periode (minutter til timer). Aktiviteten involverer typisk dynamiske helkroppsarbeid.</p>
+<p>For militære aktiviteter er dette typisk lengrevarende patruljering, forflyttning med oppakning (&gt;for eksempel &gt;30kg), graving av stillinger, bæring av materiell (ammokasser ect.).</p>
+<p><strong>Anaerob kapasitet</strong></p>
+<p>Defineres som evnen å gjennomføre korte eller kontinuerlig arbeid med maksimal innsats over korte perioder (sekunder til minutter). Aktiviteten involverer typisk dynamiske helkroppsarbeid.</p>
+<p>I militærert vild dette typsik være aktiviteter som kameratredning og ild og bevegelse.</p>
+<p>NATO REPORT page 95</p>
+<p>Hva er den viktigste betemmende faktoren for utholdenhetsprestasjon? <select class="webex-select"><option value="blank"></option><option value="">Arb.okonomi</option><option value="answer">Vo2max</option><option value="">Utnyttelsesgrad</option></select></p>
+<p>ff? <select class="webex-select" id="webex-a7aedaaf6a0b6cd6ad1cd660a2229954" data-answer="OgdNVUhQTVZr"><option value="blank"></option><option>Cricket</option><option>Soccer</option><option>Mountain Biking</option><option>Synchronized Swimming</option></select></p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-chang_2012" class="csl-entry" role="listitem">
+Chang, Y. K., J. D. Labban, J. I. Gapin, and J. L. Etnier. 2012. <span>“The Effects of Acute Exercise on Cognitive Performance: <span>A</span> Meta-Analysis.”</span> <em>Brain Research</em> 1453 (May): 87–101. <a href="https://doi.org/10.1016/j.brainres.2012.02.068">https://doi.org/10.1016/j.brainres.2012.02.068</a>.
+</div>
+<div id="ref-deuster_2013" class="csl-entry" role="listitem">
+Deuster, Patricia A., and Marni N. Silverman. 2013. <span>“Physical Fitness: A Pathway to Health and Resilience.”</span> <em>U.S. Army Medical Department Journal</em>, 24–35.
+</div>
+<div id="ref-hickey_2012" class="csl-entry" role="listitem">
+Hickey, Jp, B Donne, and D O’Brien. 2012. <span>“Effects of an <span>Eight</span> <span>Week</span> <span>Military</span> <span>Training</span> <span>Program</span> on <span>Aerobic</span> <span>Indices</span> and <span>Psychomotor</span> <span>Function</span>.”</span> <em>Journal of the Royal Army Medical Corps</em> 158 (1): 41–46. <a href="https://doi.org/10.1136/jramc-158-01-11">https://doi.org/10.1136/jramc-158-01-11</a>.
+</div>
+<div id="ref-martin_2020" class="csl-entry" role="listitem">
+Martin, Kristy, Julien Périard, Ben Rattray, and David B. Pyne. 2020. <span>“Physiological <span>Factors</span> <span>Which</span> <span>Influence</span> <span>Cognitive</span> <span>Performance</span> in <span>Military</span> <span>Personnel</span>.”</span> <em>Human Factors: The Journal of the Human Factors and Ergonomics Society</em> 62 (1): 93–123. <a href="https://doi.org/10.1177/0018720819841757">https://doi.org/10.1177/0018720819841757</a>.
+</div>
+<div id="ref-milanez_2011" class="csl-entry" role="listitem">
+Milanez, Vinícius F., Rafael E. Pedro, Alexandre Moreira, Daniel A. Boullosa, Fuad Salle-Neto, and Fábio Y. Nakamura. 2011. <span>“The <span>Role</span> of <span>Aerobic</span> <span>Fitness</span> on <span>Session</span> <span>Rating</span> of <span>Perceived</span> <span>Exertion</span> in <span>Futsal</span> <span>Players</span>.”</span> <em>International Journal of Sports Physiology and Performance</em> 6 (3): 358–66. <a href="https://doi.org/10.1123/ijspp.6.3.358">https://doi.org/10.1123/ijspp.6.3.358</a>.
+</div>
+<div id="ref-smith_2010" class="csl-entry" role="listitem">
+Smith, Patrick J., James A. Blumenthal, Benson M. Hoffman, Harris Cooper, Timothy A. Strauman, Kathleen Welsh-Bohmer, Jeffrey N. Browndyke, and Andrew Sherwood. 2010. <span>“Aerobic <span>Exercise</span> and <span>Neurocognitive</span> <span>Performance</span>: <span>A</span> <span>Meta</span>-<span>Analytic</span> <span>Review</span> of <span>Randomized</span> <span>Controlled</span> <span>Trials</span>.”</span> <em>Psychosomatic Medicine</em> 72 (3): 239–52. <a href="https://doi.org/10.1097/PSY.0b013e3181d14633">https://doi.org/10.1097/PSY.0b013e3181d14633</a>.
+</div>
+<div id="ref-taylor_2008" class="csl-entry" role="listitem">
+Taylor, Marcus K., Amanda E. Markham, Jared P. Reis, Genieleah A. Padilla, Eric G. Potterat, Sean P. A. Drummond, and Lilianne R. Mujica-Parodi. 2008. <span>“Physical <span>Fitness</span> <span>Influences</span> <span>Stress</span> <span>Reactions</span> to <span>Extreme</span> <span>Military</span> <span>Training</span>.”</span> <em>Military Medicine</em> 173 (8): 738–42. <a href="https://doi.org/10.7205/MILMED.173.8.738">https://doi.org/10.7205/MILMED.173.8.738</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -570,6 +726,9 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./02-exe.html" class="pagination-link" aria-label="Metoder">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Metoder</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
