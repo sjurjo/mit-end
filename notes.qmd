@@ -1,0 +1,144 @@
+---
+title: "notes"
+format: html
+---
+
+
+"Forutsetningene må være på plass som utstyr og forbredelser som fysisk osv. "Den viktigste beredskapen er troen på at du faktisk kan løse oppdraget når det gjelder. Realistik trening bygger den selvtilliten" sitat feltoperatør - fjernoppklaringseskadronen fra FAM100 feltøvelsen
+
+
+# Kognitive evner
+
+- Aerob kapasitet er fordelaktig for din kognitive evne. Trening leder til forbedring eller vedlikehold av det maksimale oksygenopptaket resulterer i bedre kognitiv prestasjonsevne. 
+- Bedre fysisk form/aerob kapasitet har blitt assosiert med raskere reaksjonsevne og presisjon samt arbeids minne [@hansen_2004).
+
+
+
+Dermed er det viktig at soldater er i god fysisk form før og under intensive perioder med høyt stress nivå [@dyrstad_2007]. Det er dermed viktig å vedlikeholde eller øke fysisk form i perioder med lav militær aktivitet.
+
+
+
+Studier viser at god fysisk prestasjonsevne er sett i sammenheng med økt resiliens og psykologisk og kognitive prestasjon [@deuster_2013;@martin_2020].
+
+
+Studier viser at kort fysisk aktivitet med lav til moderat intensitet kan forbdere kognitive evner, men en økning til hard og maksimal intensitet, faller denne fordelen med fysisk aktivtet bort [Chang 2012]. Videre ses det det fall i reaksjonsevne (6-7%) og arbeids minne (~7%) ved lengre varende fysisk arbeid som etter 2 [REF] og 6 timers [REF] marsj på tredemølle.
+
+
+Over en periode på 96 timer reaksjons tiden ble saktere med ca 17% og antall riktig svar på en hukommelsespppgave etter ild og bevegelses treningen ble redusert med 18% [REF, Owen2004]. 
+
+Så ved lengrevarende militære aktiviteter, kogitiv prestasjonsevne tenderer til å bl verre med øktende varighet [@martin_2020]
+
+
+Så ved å økede grad av intensitet 
+
+
+
+For å motvirke dette fallet i kogitiv prestasjonsevne under øktende intensitet, tyngre fysisk arbeid over tid, er det tydelig at fysisk bedre trente personer klarer å moderere fallet i kognitiv prestajsonsevne sammenlignet med de som er dårlig trent [@chang_2012]. En reservekapasitet muligens?
+
+
+
+
+Fysisk trening som stimulerer til forbedret aerob kapasitet kan forbedre prestasjon i flere kognitiv krevende oppgaver. Og personer som har en god aerob utholdenhet vist at de tåler bedre stress.
+Derfor å opprettholde et minimum av trening med hensikt om å vedlikeholde fysisk form under krevende situasjoner viser seg å være viktig for din militære prestasjonsevne fysisk og kognitivt [@marting_2020].
+
+
+
+Motivasjon er en kraft eller stimuli som fører til individer å gjennomføre en spesifikk oppgave eller aktivitet som har en spesifikk mål eller et personlig mål [].
+
+
+Kondisjon = utholdenhet  
+ 
+Linken mellom fysisk aktivitet og aerob kapasitet og kognivitet er vel etablert. Studier har vist aerob trening forbedrer oppmerksomhet, prossesering, utøvende funksjon og arbeidsminne [@smith_2010]. 
+
+
+# Bestemmende faktorer for din utholdenhetsprestasjon - fysiologiske
+
+
+```{r}
+#| label: fig-endpres
+#| include: TRUE
+#| echo: FALSE
+#| eval: TRUE
+#| warning: FALSE
+#| message: FALSE
+#| fig.width: 12
+#| fig.height: 8 
+#| fig.cap: "Bestemmende faktorer for utholdenhetsprestasjon"
+
+library(tidyverse)
+library(ggdag)
+
+
+dag_coords <-
+  tibble(name = c("Utholdenhetprestasjon", "VO2max", "Arbeidsokonomi", "Utnyttingsgrad"),
+         x    = c(2.5, 1, 2.5, 4),
+         y    = c(0, -1.0, -1.0, -1.0))
+
+
+
+dag <-
+  dagify(Utholdenhetprestasjon ~ VO2max,
+         Utholdenhetprestasjon ~ Arbeidsokonomi,
+         Utholdenhetprestasjon ~ Utnyttingsgrad,
+         coords = dag_coords)
+
+p1 <- dag |> 
+  ggdag()
+
+
+# Customizable plot 
+
+p2 <- dag |>
+  tidy_dagitty() |> 
+  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_dag_text(color = "black",size=5.0) +
+  geom_dag_edges() + 
+  theme_dag()
+
+
+p2
+
+```
+
+*Maksimal oksygen opptak $VO2_{max}$*  
+
+Maksimalt oksygen opptak er definert som det høyeste mengde oksygen som kroppen kan ta opp og nyttiggjøre seg under gjennomføring av anstrengende fysisk arbeid.
+
+
+
+**Aerob kapasitet**
+
+Defineres som evnen til å holde en sub-maksimal lav til moderat/høy aktivitet over en gitt periode (minutter til timer). Aktiviteten involverer typisk dynamiske helkroppsarbeid.
+
+For militære aktiviteter er dette typisk lengrevarende patruljering, forflyttning med oppakning (>for eksempel >30kg), graving av stillinger, bæring av materiell (ammokasser ect.).
+
+**Anaerob kapasitet** 
+
+Defineres som evnen å gjennomføre korte eller kontinuerlig arbeid med maksimal innsats over korte perioder (sekunder til minutter). Aktiviteten involverer typisk dynamiske helkroppsarbeid. 
+
+I militærert vild dette typsik være aktiviteter som kameratredning og ild og bevegelse.
+
+
+
+NATO REPORT page 95
+
+
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, results = 'asis'}
+
+library(webexercises)
+
+opts <- c("Arb.okonomi", answer = "Vo2max", "Utnyttelsesgrad" )
+
+q1 <- mcq(opts)
+
+cat("Hva er den viktigste betemmende faktoren for utholdenhetsprestasjon?", q1)
+```
+
+
+ff? `r exams2forms::forms_schoice(c("Cricket", "Soccer", "Mountain Biking", "Synchronized Swimming"), c(FALSE, FALSE, TRUE, FALSE), display = "dropdown")` 
+
+
+
+
+
