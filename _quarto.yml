@@ -16,10 +16,7 @@ book:
     chapters:
     - 02-exe.qmd
     - 03-intensity.qmd
-  - 99-referanser.qmd
-    
-  
-  
+    - 99-referanser.qmd
   
 brand: _brand.yml
 bibliography: bib.bib

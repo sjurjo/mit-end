@@ -2,17 +2,55 @@
 
 # Metoder
 
-## Hvilke treningsmetoder har vi for å forbedre de bestemmende faktorene for vår utholdenhetsprestasjon
+## Hvilke treningsmetoder kan vi bruke i utholdenhetstreningen
 
-Kjenne metodene for utholdenhetstrening 
-■ Kjenne intensitetssonene som er typisk å referere til ved utholdenhetstrening 
-■ Kunne legge opp utholdenhetstrening tilpasset utøveres forutsetninger og idretten de trener 
-for å bli bedre i 
+■ Kjenne metodene for utholdenhetstrening  
+■ Kjenne intensitetssonene som er typisk å referere til ved utholdenhetstrening  
+■ Kunne legge opp utholdenhetstrening tilpasset utøveres forutsetninger og idretten de trener for å bli bedre i  
+
+Det er ingen klar fasit på hvordan personer bør trene, men gjennom forskning og erfaringer med målrettet trening har det kommet frem noen generelle råd eller retningslinjer.
+
+- For utrente personer handler det stort sett om å komme i gang med en eller annen form for aktivitet. Enhver økning i aktivitetsnivå kan gi en fremgang i utholdenhetsprestasjon. Noen studier viser dog at mer intensiv trening gir raskere fremgang enn rolig trening. 
+
+- Videre viser data fra forskningsstudier på utholdenhetstrening at trening med *høy intensitet* forbedrer $\text{VO2}_\text{max}$ raskere enn rolig mer lav intensitet. Ulike typer intervaller som kortintervaller med kort pause, lengre intervaller og kontinuerlig arbeid på høy intensitet har vist seg å være effektive. Høy intensitet tilsvarer 16-20 på Borg skala (se @sec-int for Borg skalen). Her er de fleste studiene gjennomført på moderat til trente personer og ikke elite/topptrente personer. Ved høy intensiv trening er belastningen relativt høy og restitusjonstiden kan dermed også bli lengre mellom treningsøktene.
+
+- *Moderat intensitet*, ofte assosiert med terskeltrening, representerer et belastningsnivå hvor arbeidet kan opprettholdes over tid uten at den fysiologiske og opplevende belastningen blir for høy. Terskelintensiteten kan defineres som den høyeste intensiteten en person er i stand til å opprettholde i omtrent en time. Belastningen oppleves dermed som kontrollert, men samtidig relativt hard. For praktisk styring av denne intensitetssonen kan en benytte enkle subjektive indikatorer, som evnen til å si en kort setning (omtrent 4–5 ord) før man blir avbrutt av pusten/respirasjonen (snakketesten). Videre vil denne intensiteten typisk tilsvare en opplevd anstrengelse på 14–16 på Borgs skala (@sec-int). Samlet sett kan slike styringsparametere bidra til at treningen gjennomføres innenfor ønsket intensitetsområde, *moderat*.
 
 
+- *Lav intensitet*, gjennomføres ofte som langkjøring hvor intensiteten er lav og det arbeides kontinuerlig over en lengre periode avhengig av  treningsstatus. Treningen foregår i pratetempo og føles behagelig. På Borg skalen tilsvarer dette 10-12 (@sec-int). 
 
-- Hvorfor kontroll på intensitet og bruk av ulike utholdenhets metoder?
-  - Kvalitet
-  - Effektivitet
-  - Belastning
-  - Adaptasjoner-tilpasninger
+
+## Hva skjer med tilpasninger i muskelen til (utholdenhets)trening (helt kort)
+
+Uavhengig av treningsmetodene skissert over, er utholdenhetstrening en metode for å gi et stimuli på det kardiovaskulære systemet. Ved et gitt stimuli, om det er høy intensiv intervalltrening eller terskeldrag vil det i muskelcellen skje en rekke signalforandringer som en konsekvens av blant annet endring i det metabolske kravet til den arbeidende muskelcellen. Denne kaskaden av signaleringer resulterer i en akutt økning i genuttrykk, som er en oppskrift på proteiner, for eksempel mitokondrielle proteiner som inngår i nybyggingen av mitokondrier (energifabrikker i muskelen). Langvarig adaptasjoner til trening kan forstås som en kumulativ effekt av gjentatte akutte treningsøkter, hvor den samlede belastningen fra treningsøkter over uker og måneder gir et tilstrekkelig stimulus som igjen leder til strukturelle og fysiologiske tilpasninger i muskulaturen, noe som sannynligvis fører til forbedret utholdenhetsprestasjon [@egan_2013]. Se @fig-adapt for illustrasjon av denne akkumulative effekten. Enkeltstående treningsøkter ved ujevne mellomrom vil derimot ha begrenset, eller ingen, langsiktig effekt på utholdenhetsprestasjonen. Det er derfor nødvendig med kontinuitet i treningen, gjerne strukturert gjennom en treningsplan, for å oppnå forbedringer i utholdenhetsprestasjon.
+
+```{r}
+#| label: fig-adapt
+#| include: TRUE
+#| echo: FALSE
+#| eval: TRUE
+#| warning: FALSE
+#| message: FALSE
+#| fig.width: 10
+#| fig.height: 7 
+#| fig.cap: "Illustrer effekten av akutte treningsøkter og den akkumulative effekten på endringer i muskelcellen etter gjentatte akutte økter over uker og måneder og hvordan dette har sammenheng med forbedring i utholdenhetsprestasjon [@egan_2013]"
+
+
+library(magick)
+
+# save image as ggplot
+
+my_plot_ggplot <- image_read("./resources/adaptations.png") %>% 
+  image_ggplot(interpolate = TRUE)
+
+my_plot_ggplot
+```
+
+
+## Hvorfor kontroll på intensitet og bruk av ulike utholdenhetsmetoder?
+ 
+- Kvalitet og effektiviteten på treningsøktene forbedres
+- Enklerer å kontrollere belastning over tid og dermed unngår ensidig trening og videre overbelastning
+    - Ensidig trening er en risikofoaktor for overbelastning
+- Mer kontroll på treningen kan gi rom for tilpasninger og adaptasjoner som krever en balansegang mellom belastning og restitusjon
+  

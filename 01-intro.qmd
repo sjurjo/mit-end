@@ -1,12 +1,11 @@
 
-Viktigheten av fysisk aktivitet for mennesket har lenge vært i fokus, og allerede i 1873 uttrykte *Edward Stanley*, en britisk politiker og opptatt av helse og livskvalitet, dette veldig treffende:
-*"Those who think they have not time for bodily exercise will sooner or later have to find time for illness."*
+Betydningen av fysisk aktivitet har lenge stått sentralt i forståelsen av helse og funksjonsevne. Allerede i 1873 uttrykte den britiske politikeren Edward Stanley, som var opptatt av menneskers helse og livskvalitet, dette på en særlig treffende måte: *“Those who think they have not time for bodily exercise will sooner or later have to find time for illness.”*
 
-Med dette sitatet til *Stanley* er viktigheten for fysisk form for individet generelt satt og mer inngående kunnskap om viktigheten av fysisk form for soldaten vil nå bli beskrevet i avsnittene som følger.
+Med dette sitatet understrekes den generelle betydningen av fysisk aktivitet og fysisk form for individets helse og funksjonsevne. I de følgende avsnittene blir betydningen av fysisk form for soldatens prestasjon og operative evne belyst nærmere.
 
 # Hva er utholdenhetstrening i en militær kontekst 
 
-Fysisk form er en av de militære basis ferdighetene som er elementere for at soldaten skal gjennomføre sine oppgaver effektivt. Derfor er fysisk trening implementert som en obligatorisk del i soldaters utdanningsprogram. Herunder er både styrke og utholdenhet to av de viktigste fysiologiske kapasitetene er soldat må trene på for å imøtekomme kravene soldaten møter på den moderne krigens teater. Derfor er det essensielt at du som befal/offiser tar dette med i vurderingene når treningsprogram utvikles for dine avdelings/lags soldater.
+Fysisk form er en av de elementere militære basis ferdighetene en soldat trenger for å gjennomføre sine oppgaver effektivt. Derfor er fysisk trening implementert som en obligatorisk del i soldaters utdanningsprogram. Herunder er både styrke og utholdenhet to av de viktigste fysiologiske kapasitetene er soldat må trene på for å imøtekomme kravene soldaten møter på den moderne krigsfeltet. Derfor er det essensielt at du som befal/offiser tar dette med i vurderingene når det skal utvikles treningsprogram for dine avdelings/lags soldater.
 
 ## Utholdenhetskapasitet og fysisk prestasjonsevne {#sec-endurance}
 
@@ -67,7 +66,7 @@ my_plot_ggplot <- image_read("./resources/merge.png") %>%
 my_plot_ggplot
 ```
 
-I en militær kontekst er det estimert at gjennomføring av generiske soldatoppgaver, herunder forflytning med oppakning (marsj), graving og løfting [REF], krever et oksygenopptak på ca 47–50 $\text{ml}\ \text{kg}^{-1}\ \text{min}^{-1}$, hvilket representerer det gjennomsnittlige energikravet for slike aktiviteter. Dette oksygenopptaket tilsvarer omtrent en gjennomføringstid på 15 minutter ved en 3000-meter test, og derfor er denne tiden satt som et minste krav for den gjennomsnittlige soldaten. Likevel, selv om dette nivået anses som et minimumskrav for militært personell, bør det tilstrebes et høyere fysisk kapasitet. Økt aerob yteevne er assosiert med flere operative fordeler, særlig knyttet til stridsutholdenhet, belastningstoleranse og prestasjonsevne under krevende forhold i krise- og krig [@ojanen_2018].
+I en militær kontekst er det estimert at gjennomføring av generiske soldatoppgaver, herunder forflytning med oppakning (marsj), graving og løfting [@nato_2019], krever et oksygenopptak på ca 45–47 $\text{ml}\ \text{kg}^{-1}\ \text{min}^{-1}$, hvilket representerer det gjennomsnittlige energikravet for slike aktiviteter. Dette oksygenopptaket tilsvarer omtrent en gjennomføringstid på 15 minutter ved en 3000-meter test, og derfor er denne tiden satt som et minste krav for den gjennomsnittlige soldaten. Likevel, selv om dette nivået anses som et minimumskrav for militært personell, bør det tilstrebes et høyere fysisk kapasitet. Økt aerob yteevne er assosiert med flere operative fordeler, særlig knyttet til stridsutholdenhet, belastningstoleranse og prestasjonsevne under krevende forhold i krise- og krig [@ojanen_2018].
 
 
 ```{r}
@@ -99,20 +98,19 @@ my_plot_ggplot
 
 Fysisk form er ikke bare nødvendig for å imøtekomme de fysisk krevende arbeidsoppgavene en soldat har. God fysisk kapasitet må også ses i sammenheng med soldatens kognitive og mentale funksjonsevne [@chang_2012]. For eksempel viser fysisk trente personer lavere psykososiale stressresponser, bedre håndtering av emosjonelt stress og mer hensiktsmessige reaksjoner på akutt stress, herunder forbedret motorisk kontroll og prestasjonsevne sammenlignet med utrente individer i den generelle befolkningen [@dyrstad_2007].
 
-Videre vil nivået av aerob kapasitet, som beskrevet i avsnittet @sec-endurance, være en gunstig faktor for kognitiv funksjon. Fysisk trening som bidrar til å forbedre eller opprettholde maksimalt oksygenopptak, er assosiert med styrkende mentale egenskaper som økt resiliens samt bedre psykologiske og kognitive prestasjoner [@deuster_2013; @martin_2020]. I en åtte uker lang treningsstudie, hvor VO₂maks økte med 5 %, ble det rapportert forbedring i oppmerksomhet (20 %), arbeidsminne (20 %) og selvkontroll [@hickey_2012].
-. God fysisk form kan også indirekte styrke kognitive evner ved å dempe effekten av andre stressfaktorer som ellers kan svekke prestasjonsevnen. For eksempel er bedre fysisk form assosiert med redusert stressreaksjoner under svært krevende militær trening [@taylor_2008], lavere grad av mental tretthet/fatigue og en tendens til å oppleve fysisk belastende situasjoner som mindre anstrengende [@milanez_2011]. 
+Videre vil nivået av aerob kapasitet, som beskrevet i avsnittet @sec-endurance, være en gunstig faktor for kognitiv funksjon. Fysisk trening som bidrar til å forbedre eller opprettholde maksimalt oksygenopptak, er assosiert med styrkende mentale egenskaper som økt resiliens samt bedre psykologiske og kognitive prestasjoner [@deuster_2013; @martin_2020]. I en åtte uker lang treningsstudie, hvor VO₂maks økte med 5 %, ble det rapportert forbedring i oppmerksomhet (20 %), arbeidsminne (20 %) og selvkontroll [@hickey_2012]. God fysisk form kan også indirekte styrke kognitive evner ved å dempe effekten av andre stressfaktorer som ellers kan svekke prestasjonsevnen. For eksempel er bedre fysisk form assosiert med redusert stressreaksjoner under svært krevende militær trening [@taylor_2008], lavere grad av mental tretthet/fatigue og en tendens til å oppleve fysisk belastende situasjoner som mindre anstrengende [@milanez_2011]. 
 
 
 
-**Akutt og vedvarende belastning av militære aktiviteter**
+**Effekten av akutt- og vedvarende belastning av militære aktiviteter på kognitive evner**
 
 Akutt fysisk belastning, som korte intensive løp eller lengre marsjer med lett til moderat oppakning (<30 % av kroppsvekt), ser ikke ut til å påvirke årvåkenhet, reaksjonsevne eller arbeidsminne negativt [@chang_2012]. Tvert imot rapporteres det i flere tilfeller forbedringer i kognitive funksjoner ved lav til moderat intensitet, noe som kan være relatert til økt blodgjennomstrømning til hjernen [REF]. Denne fordelen synes imidlertid å avta når belastningen nærmer seg høy til maksimal intensitet.
 
-Under vedvarende militære aktiviteter observeres derimot en tendens til gradvis reduksjon i kognitiv prestasjon i takt med økende varighet av belastningen [@chang_2012], noe som indikerer at akkumulert fatigue over tid kan ha en negativ innvirkning på kognitive funksjoner [@martin_2020].
+Derimot under vedvarende militære aktiviteter observeres det en tendens til gradvis reduksjon i kognitiv prestasjon i takt med økende varighet på belastningen [@chang_2012], noe som indikerer at akkumulert fatigue over tid kan ha en negativ innvirkning på kognitive funksjoner [@martin_2020].
 
 
-<span style="color:#550fe3;">*Kort take home:* For å optimalisere kognitiv ytelse bør regelmessig og konsekvent fysisk trening, med fokus på å forbedre aerob effekt (kapasitet), prioriteres hos alt militært personell.</span>
+<span style="color:#550fe3;">*Kort take home fra avsnittene:* For å optimalisere fysisk -og kognitiv yteevbe bør regelmessig og konsekvent fysisk trening, med fokus på å forbedre aerob effekt (kapasitet), prioriteres hos alt militært personell.</span>
 
 
-**Refleksjonsoppgave til Befalen in class :** Hva tenker du om dette sett i lys av dine evne til å ta riktig beslutninger til riktig tid, prosessere mye informasjon og kunne observere/ta inn viktige detaljer for din beslutning, akutt reaksjonsevne under for eksempel ild og bevegelse situasjoner?
+**Refleksjonsoppgave til kommende Befal:** Hva tenker du om poengene, sett i lys av din evne til å ta riktige beslutninger til riktig tid, håndtere og bearbeide store mengder informasjon, samt observere og fange opp viktige detaljer som grunnlag for beslutninger. Er du enig i at å ha en god fysisk grunnform vil frigjøre plass for å utøve andre mentalt krevende oppgaver som en Befal står ovenfor i krise og krig?
 

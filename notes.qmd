@@ -140,5 +140,9 @@ ff? `r exams2forms::forms_schoice(c("Cricket", "Soccer", "Mountain Biking", "Syn
 
 
 
+![](resources/borgskala.png)
+
+![](resources/borg_ex.png)
+
 
 
