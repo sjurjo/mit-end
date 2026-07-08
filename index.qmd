@@ -19,12 +19,12 @@ github-repo: sjurjo/mit-end
 
 Dette sitat er fra en av feltoperatørene fra fjernoppklaringseskadronen som deltok i FAM100. FAM100 er den lengste feltøvelsen d.d. gjennomført som et realistisk sceneario. Feltoperatøren var i beredskap i arktisk terreng i 100 dager og løste realistiske oppdrag uten annen støtte enn sitt eget lag.
 
-For å klare å være i beredskap over tid under slike ekstreme forhold med uforutsette scenarioer er det en rekke forutsetninger som må være på plass for å imøtekomme de krav som møter soldaten. Bortsett fra blant annet riktig utstyr, er riktig trening herunder god fysisk form og mental kapasitet en forutsetning. I lys av dette er soldatens utholdenhetskapasitet en viktig faktor for å være operativ over tid, og dette er uavhengig av hvilken militær stilling som besittes. Mer om denne sammenhengen senere i denne modulen.
+For å klare å være i beredskap over tid under slike ekstreme forhold med uforutsette scenarioer er det en rekke forutsetninger som må være på plass for å imøtekomme de krav som møter soldaten. Bortsett fra blant annet riktig utstyr, er riktig trening herunder god fysisk form og mental kapasitet en forutsetning. I lys av dette er soldatens utholdenhetskapasitet en viktig faktor for å være operativ over tid. God utholdenhetskapasitet er essensiselt for soldatens operative yteevne og dette er uavhengig av hvilken militær stilling som besittes! Mer om denne sammenhengen senere i denne modulen.
 
 
 ![Bilde: FAM100 soldatene - forsvaret.no ](./resources/feltope.jpg)
 
-Denne siden vil gi en kort innføring i teori omkring utholdenhetstrening og hvordan din fysiske form står i sammenheng med din operative evne. I praksisøktene gjennomføres intensitetsstyring gjennom forskjellige utholdenhetsmetoder, arbeidsspesifikke utholdenhetsøkter og kadettstyrteøkter.
+Denne siden vil gi en kort innføring i teori omkring utholdenhetstrening og hvordan din fysiske form står i sammenheng med din operative evne. I praksisøktene gjennomføres intensitetsstyring gjennom forskjellige utholdenhetsmetoder, arbeidsspesifikke utholdenhetsøkter og kadett styrte økter.
 
 Etter denne korte modulen skal du ha kunnskap og ferdigheter om:
 

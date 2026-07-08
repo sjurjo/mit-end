@@ -2,7 +2,8 @@
 
 ## Intensitets verktøy - Borg skala {#sec-int}
 
-Borg skala er et verktøy som du kan bruke for intensitetsstyring i din utholdenhetstrening og den er gratis å bruke 😀
+Borg skala er et verktøy som du kan bruke for intensitetsstyring i din utholdenhetstrening og den er helt gratis å bruke 😀.
+Vi skal bli godt kjent med dette verktøyet i de praktiske øktene.
 
 
 ::::: columns

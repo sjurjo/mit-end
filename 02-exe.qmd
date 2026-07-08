@@ -4,6 +4,8 @@
 
 ## Hvilke treningsmetoder kan vi bruke i utholdenhetstreningen
 
+Læringsmål:  
+
 ■ Kjenne metodene for utholdenhetstrening  
 ■ Kjenne intensitetssonene som er typisk å referere til ved utholdenhetstrening  
 ■ Kunne legge opp utholdenhetstrening tilpasset utøveres forutsetninger og idretten de trener for å bli bedre i  
@@ -20,9 +22,9 @@ Det er ingen klar fasit på hvordan personer bør trene, men gjennom forskning o
 - *Lav intensitet*, gjennomføres ofte som langkjøring hvor intensiteten er lav og det arbeides kontinuerlig over en lengre periode avhengig av  treningsstatus. Treningen foregår i pratetempo og føles behagelig. På Borg skalen tilsvarer dette 10-12 (@sec-int). 
 
 
-## Hva skjer med tilpasninger i muskelen til (utholdenhets)trening (helt kort)
+## Hva skjer med tilpasninger i muskelen ved trening (helt kort)
 
-Uavhengig av treningsmetodene skissert over, er utholdenhetstrening en metode for å gi et stimuli på det kardiovaskulære systemet. Ved et gitt stimuli, om det er høy intensiv intervalltrening eller terskeldrag vil det i muskelcellen skje en rekke signalforandringer som en konsekvens av blant annet endring i det metabolske kravet til den arbeidende muskelcellen. Denne kaskaden av signaleringer resulterer i en akutt økning i genuttrykk, som er en oppskrift på proteiner, for eksempel mitokondrielle proteiner som inngår i nybyggingen av mitokondrier (energifabrikker i muskelen). Langvarig adaptasjoner til trening kan forstås som en kumulativ effekt av gjentatte akutte treningsøkter, hvor den samlede belastningen fra treningsøkter over uker og måneder gir et tilstrekkelig stimulus som igjen leder til strukturelle og fysiologiske tilpasninger i muskulaturen, noe som sannynligvis fører til forbedret utholdenhetsprestasjon [@egan_2013]. Se @fig-adapt for illustrasjon av denne akkumulative effekten. Enkeltstående treningsøkter ved ujevne mellomrom vil derimot ha begrenset, eller ingen, langsiktig effekt på utholdenhetsprestasjonen. Det er derfor nødvendig med kontinuitet i treningen, gjerne strukturert gjennom en treningsplan, for å oppnå forbedringer i utholdenhetsprestasjon.
+Uavhengig av treningsmetodene skissert over, er utholdenhetstrening en metode for å gi et stimuli på det kardiovaskulære systemet. Ved et gitt stimuli, om det er høy intensiv intervalltrening eller terskeldrag vil det i muskelcellen skje en rekke signalforandringer som en konsekvens av blant annet endring i det metabolske kravet til den arbeidende muskelcellen. Denne kaskaden av signaleringer resulterer i en akutt økning i genuttrykk, som er en oppskrift på proteiner, for eksempel mitokondrielle proteiner som inngår i nybyggingen av mitokondrier (energifabrikker i muskelen). Langvarig adaptasjoner til trening kan forstås som en kumulativ effekt av gjentatte akutte treningsøkter, hvor den samlede belastningen fra treningsøkter over uker og måneder gir et tilstrekkelig stimulus som igjen leder til strukturelle og fysiologiske tilpasninger i muskulaturen, noe som sannynligvis fører til forbedret utholdenhetsprestasjon [@egan_2013]. Se @fig-adapt for illustrasjon av denne akkumulative effekten. Enkeltstående treningsøkter ved ujevne mellomrom vil derimot ha begrenset, eller ingen, langsiktig effekt på utholdenhetsprestasjonen. Det er derfor nødvendig med *kontinuitet* i treningen, gjerne strukturert gjennom en treningsplan, for å oppnå forbedringer i utholdenhetsprestasjon.
 
 ```{r}
 #| label: fig-adapt
@@ -33,7 +35,7 @@ Uavhengig av treningsmetodene skissert over, er utholdenhetstrening en metode fo
 #| message: FALSE
 #| fig.width: 10
 #| fig.height: 7 
-#| fig.cap: "Illustrer effekten av akutte treningsøkter og den akkumulative effekten på endringer i muskelcellen etter gjentatte akutte økter over uker og måneder og hvordan dette har sammenheng med forbedring i utholdenhetsprestasjon [@egan_2013]"
+#| fig.cap: "Illustrer effekten av akutte treningsøkter og den akkumulative effekten på endringer i muskelcellen etter gjentatte akutte økter over uker og måneder og hvordan dette har sammenheng med forbedring i utholdenhetsprestasjon [Figur fra @egan_2013]"
 
 
 library(magick)
